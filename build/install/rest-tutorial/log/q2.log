@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2019-09-18T06:26:05.278">
+  <info>
+    Q2 started, deployDir=/run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-18T06:26:05.648" lifespan="361ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART)
+rest-tutorial 2.1.2 master/9d4095d (2019-09-18 13:56:00 IRDT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2019-09-18T06:26:05.659" lifespan="6ms">
+  <info>
+    deploy: /run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/05_serversimulator.xml
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.util.log" at="2019-09-18T06:26:05.686">
+  <info>
+    Logging initialized @987ms to org.eclipse.jetty.util.log.Slf4jLog
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.util.log" at="2019-09-18T06:26:05.789">
+  <warn>
+    setDebugEnabled not implemented
+  </warn>
+</log>
+<log realm="Q2.system" at="2019-09-18T06:26:05.835" lifespan="174ms">
+  <info>
+    deploy: /run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/90_jetty.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-18T06:26:05.843" lifespan="6ms">
+  <info>
+    deploy: /run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="simulator_10000.server" at="2019-09-18T06:26:05.862">
+  <iso-server>
+    listening on port 10000
+  </iso-server>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.Server" at="2019-09-18T06:26:05.862">
+  <info>
+    jetty-9.4.5.v20170502
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.deploy.providers.ScanningAppProvider" at="2019-09-18T06:26:05.882">
+  <info>
+    Deployment monitor [file:///run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/webapps/] at interval 1
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.annotations.AnnotationConfiguration" at="2019-09-18T06:26:06.613">
+  <info>
+    Scanning elapsed time=440ms
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.webapp.StandardDescriptorProcessor" at="2019-09-18T06:26:06.638">
+  <info>
+    NO JSP Support for /api, did not find org.apache.jasper.servlet.JspServlet
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.session" at="2019-09-18T06:26:06.749">
+  <info>
+    DefaultSessionIdManager workerName=node0
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.session" at="2019-09-18T06:26:06.750">
+  <info>
+    No SessionScavenger set, using defaults
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.session" at="2019-09-18T06:26:06.752">
+  <info>
+    Scavenging every 660000ms
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.handler.ContextHandler" at="2019-09-18T06:26:07.608">
+  <info>
+    Started o.e.j.w.WebAppContext@39007fca{/api,file:///tmp/jetty-0.0.0.0-8080-rest-tutorial-2.1.2.war-_rest-tutorial-2.1.2-any-2204612994003002914.dir/webapp/,AVAILABLE}{/@warname@}
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.annotations.AnnotationConfiguration" at="2019-09-18T06:26:07.641">
+  <info>
+    Scanning elapsed time=0ms
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.webapp.StandardDescriptorProcessor" at="2019-09-18T06:26:07.652">
+  <info>
+    NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.handler.ContextHandler" at="2019-09-18T06:26:07.663">
+  <info>
+    Started o.e.j.w.WebAppContext@56c7dc4d{/,file:///run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/webapps/root/,AVAILABLE}{/root}
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.AbstractConnector" at="2019-09-18T06:26:07.674">
+  <info>
+    Started ServerConnector@74869e79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.util.ssl.SslContextFactory" at="2019-09-18T06:26:07.681" lifespan="1ms">
+  <info>
+    x509=X509@67d6e0bd(jetty,h=[jpos.org],w=[]) for SslContextFactory@27e3df68(file:///run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/cfg/keystore.jks,null)
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.AbstractConnector" at="2019-09-18T06:26:07.689">
+  <info>
+    Started ServerConnector@112a3463{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.Server" at="2019-09-18T06:26:07.690">
+  <info>
+    Started @2993ms
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2019-09-18T06:26:07.692">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2019-09-18T06:26:07.694">
+  <info>
+               OS: Linux (5.2.9-200.fc30.x86_64)
+             Java: 1.8.0_222 (Oracle Corporation) AES-secure
+     process name: 4516@localhost
+        user name: Smile
+             host: localhost/127.0.0.1
+              cwd: /run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial
+       free space: 244.7 GiB
+          version: 2.1.2 (6f9379a)
+         instance: 76855141-6193-4ae9-8604-c5f1009983c3
+           uptime: 00:00:02.805 (0.040000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 88/37/51
+         encoding: UTF-8
+         timezone: GMT-03:00 (GMT-03:00) -03:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1568798767 2019-09-18T09:26:07.694Z
+     thread count: 41
+     peak threads: 41
+     user threads: 38
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-76855141-6193-4ae9-8604-c5f1009983c3,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[org.eclipse.jetty.util.RolloverFileOutputStream,5,main]
+            Thread[Thread-5,5,main]
+            Thread[qtp1509725432-22,5,main]
+            Thread[qtp1509725432-23,5,main]
+            Thread[qtp1509725432-24,5,main]
+            Thread[qtp1509725432-25,5,main]
+            Thread[qtp1509725432-26,5,main]
+            Thread[qtp1509725432-27,5,main]
+            Thread[qtp1509725432-28-acceptor-0@3e332654-ServerConnector@112a3463{SSL,[ssl, http/1.1]}{0.0.0.0:8443},3,main]
+            Thread[qtp1509725432-29,5,main]
+            Thread[qtp1509725432-30,5,main]
+            Thread[qtp1509725432-31-acceptor-0@371a55cb-ServerConnector@74869e79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080},3,main]
+            Thread[Scheduler-574659525,5,main]
+            Thread[HttpClient@972128838-33,5,main]
+            Thread[HttpClient@972128838-34,5,main]
+            Thread[HttpClient@972128838-35,5,main]
+            Thread[HttpClient@972128838-36,5,main]
+            Thread[HttpClient@972128838-37,5,main]
+            Thread[HttpClient@972128838-38,5,main]
+            Thread[HttpClient@972128838-39,5,main]
+            Thread[HttpClient@972128838-40,5,main]
+            Thread[HttpClient@221501803-41,5,main]
+            Thread[HttpClient@221501803-42,5,main]
+            Thread[HttpClient@221501803-43,5,main]
+            Thread[HttpClient@221501803-44,5,main]
+            Thread[HttpClient@221501803-45,5,main]
+            Thread[HttpClient@221501803-46,5,main]
+            Thread[HttpClient@221501803-47,5,main]
+            Thread[HttpClient@221501803-48,5,main]
+            Thread[Scanner-0,5,main]
+            Thread[qtp1509725432-51,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[simulator_10000-ThreadPool.PooledThread-0,5,simulator_10000-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      simulator_10000: org.jpos.q2.iso.QServer
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      server.simulator_10000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+  </info>
+</log>
+<log realm="stdout" at="2019-09-18T06:26:22.308" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stderr" at="2019-09-18T06:26:22.479" lifespan="500ms">
+    Sep 18, 2019 6:26:21 AM org.hibernate.Version logVersion
+    INFO: HHH000412: Hibernate Core {5.2.17.Final}
+    Sep 18, 2019 6:26:21 AM org.hibernate.cfg.Environment <clinit>
+    INFO: HHH000206: hibernate.properties not found
+</log>
+<log realm="slf4j::com.mchange.v2.log.MLog" at="2019-09-18T06:26:22.963">
+  <info>
+    MLog clients using slf4j logging.
+  </info>
+</log>
+<log realm="slf4j::com.mchange.v2.c3p0.C3P0Registry" at="2019-09-18T06:26:23.015">
+  <info>
+    Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+  </info>
+</log>
+<log realm="slf4j::com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" at="2019-09-18T06:26:23.079">
+  <info>
+    Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@defc54e9 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@fd54c6f1 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> z8kflta5is6f4b1jvsypz|2e6bc20d, idleConnectionTestPeriod -> 3000, initialPoolSize -> 2, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 300, maxStatementsPerConnection -> 0, minPoolSize -> 2, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@93c3c26d [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> z8kflta5is6f4b1jvsypz|22099da3, jdbcUrl -> jdbc:postgresql://localhost:5432/jpos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kflta5is6f4b1jvsypz|cdf96cc, numHelperThreads -> 3 ]
+  </info>
+</log>
+<log realm="stderr" at="2019-09-18T06:26:23.355" lifespan="500ms">
+    Sep 18, 2019 6:26:22 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+    INFO: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+    Sep 18, 2019 6:26:22 AM org.hibernate.c3p0.internal.C3P0ConnectionProvider configure
+    INFO: HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/jpos
+    Sep 18, 2019 6:26:22 AM org.hibernate.c3p0.internal.C3P0ConnectionProvider configure
+    INFO: HHH10001001: Connection properties: {user=postgres, password=****}
+    Sep 18, 2019 6:26:22 AM org.hibernate.c3p0.internal.C3P0ConnectionProvider configure
+    INFO: HHH10001003: Autocommit mode: false
+    Sep 18, 2019 6:26:23 AM org.hibernate.c3p0.internal.C3P0ConnectionProvider configure
+    INFO: HHH10001007: JDBC isolation level: READ_COMMITTED
+    Sep 18, 2019 6:26:23 AM org.hibernate.dialect.Dialect <init>
+    INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+    Sep 18, 2019 6:26:23 AM org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl useContextualLobCreation
+    INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+    Sep 18, 2019 6:26:23 AM org.hibernate.type.BasicTypeRegistry register
+    INFO: HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5f9f3942
+    Sep 18, 2019 6:26:23 AM org.hibernate.envers.boot.internal.EnversServiceImpl configure
+    INFO: Envers integration enabled? : true
+</log>
+<log realm="slf4j::net.sf.ehcache.config.ConfigurationFactory" at="2019-09-18T06:26:23.670">
+  <warn>
+    No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/lib/ehcache-2.10.3.jar!/ehcache-failsafe.xml
+  </warn>
+</log>
+<log realm="stderr" at="2019-09-18T06:26:24.257" lifespan="500ms">
+    Sep 18, 2019 6:26:23 AM org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory getCache
+    WARN: HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+    Sep 18, 2019 6:26:23 AM org.hibernate.cache.spi.UpdateTimestampsCache <init>
+    INFO: HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+    Sep 18, 2019 6:26:23 AM org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory getCache
+    WARN: HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+    Sep 18, 2019 6:26:23 AM org.hibernate.cache.internal.StandardQueryCache <init>
+    INFO: HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+    Sep 18, 2019 6:26:23 AM org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory getCache
+    WARN: HHH020003: Could not find a specific ehcache configuration for cache named [org.jpos.ee.SysConfig]; using defaults.
+</log>
+<log realm="stdout" at="2019-09-18T06:26:30.025" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:26:31.015" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:26:31.523" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:26:32.032" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:26:32.996" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:26:35.998" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:26:39.074" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stderr" at="2019-09-18T06:26:39.233" lifespan="500ms">
+    Sep 18, 2019 6:26:38 AM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+    WARNING: WSP0075: Policy assertion "{http://schemas.microsoft.com/ws/06/2004/policy/http}BasicAuthentication" was evaluated as "UNKNOWN".
+    Sep 18, 2019 6:26:38 AM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+    WARNING: WSP0019: Suboptimal policy alternative selected on the client side with fitness "UNKNOWN".
+</log>
+<log realm="stdout" at="2019-09-18T06:26:42.513" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:26:43.058" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:26:45.013" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:26:48.023" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:31:35.954" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:31:38.945" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:31:40.913" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stderr" at="2019-09-18T06:31:40.973" lifespan="500ms">
+    Sep 18, 2019 6:31:40 AM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+    WARNING: WSP0075: Policy assertion "{http://schemas.microsoft.com/ws/06/2004/policy/http}BasicAuthentication" was evaluated as "UNKNOWN".
+    Sep 18, 2019 6:31:40 AM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+    WARNING: WSP0019: Suboptimal policy alternative selected on the client side with fitness "UNKNOWN".
+</log>
+<log realm="stdout" at="2019-09-18T06:31:42.456" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:31:44.954" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T06:31:47.956" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="Q2.system" at="2019-09-18T07:26:05.493" lifespan="8ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART)
+rest-tutorial 2.1.2 master/9d4095d (2019-09-18 13:56:00 IRDT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2019-09-18T07:26:07.747">
+  <info>
+               OS: Linux (5.2.9-200.fc30.x86_64)
+             Java: 1.8.0_222 (Oracle Corporation) AES-secure
+     process name: 4516@localhost
+        user name: Smile
+             host: localhost/127.0.0.1
+              cwd: /run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial
+       free space: 244.7 GiB
+          version: 2.1.2 (6f9379a)
+         instance: 76855141-6193-4ae9-8604-c5f1009983c3
+           uptime: 01:00:02.859 (0.130000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 88/53/35
+         encoding: UTF-8
+         timezone: GMT-03:00 (GMT-03:00) -03:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1568802367 2019-09-18T10:26:07.747Z
+     thread count: 56
+     peak threads: 58
+     user threads: 53
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-76855141-6193-4ae9-8604-c5f1009983c3,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[org.eclipse.jetty.util.RolloverFileOutputStream,5,main]
+            Thread[Thread-5,5,main]
+            Thread[qtp1509725432-22,5,main]
+            Thread[qtp1509725432-23,5,main]
+            Thread[qtp1509725432-24,5,main]
+            Thread[qtp1509725432-25,5,main]
+            Thread[qtp1509725432-26,5,main]
+            Thread[qtp1509725432-27,5,main]
+            Thread[qtp1509725432-28-acceptor-0@3e332654-ServerConnector@112a3463{SSL,[ssl, http/1.1]}{0.0.0.0:8443},3,main]
+            Thread[qtp1509725432-29,5,main]
+            Thread[qtp1509725432-30,5,main]
+            Thread[qtp1509725432-31-acceptor-0@371a55cb-ServerConnector@74869e79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080},3,main]
+            Thread[Scheduler-574659525,5,main]
+            Thread[HttpClient@972128838-33,5,main]
+            Thread[HttpClient@972128838-34,5,main]
+            Thread[HttpClient@972128838-35,5,main]
+            Thread[HttpClient@972128838-36,5,main]
+            Thread[HttpClient@972128838-37,5,main]
+            Thread[HttpClient@972128838-38,5,main]
+            Thread[HttpClient@972128838-39,5,main]
+            Thread[HttpClient@972128838-40,5,main]
+            Thread[HttpClient@221501803-41,5,main]
+            Thread[HttpClient@221501803-42,5,main]
+            Thread[HttpClient@221501803-43,5,main]
+            Thread[HttpClient@221501803-44,5,main]
+            Thread[HttpClient@221501803-45,5,main]
+            Thread[HttpClient@221501803-46,5,main]
+            Thread[HttpClient@221501803-47,5,main]
+            Thread[HttpClient@221501803-48,5,main]
+            Thread[Scanner-0,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[qtp1509725432-53,5,main]
+            Thread[qtp1509725432-54,5,main]
+            Thread[pool-2-thread-1,5,main]
+            Thread[pool-3-thread-1,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-AdminTaskTimer,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#0,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#1,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#2,5,main]
+            Thread[__DEFAULT__,5,main]
+            Thread[org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.data,5,main]
+            Thread[Statistics Thread-__DEFAULT__-1,5,main]
+            Thread[org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.data,5,main]
+            Thread[org%002ejpos%002eee%002e%0053ys%0043onfig.data,5,main]
+            Thread[qtp1509725432-69,5,main]
+            Thread[qtp1509725432-70,5,main]
+            Thread[qtp1509725432-129,5,main]
+            Thread[simulator_10000-ThreadPool.PooledThread-0,5,simulator_10000-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      simulator_10000: org.jpos.q2.iso.QServer
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      server.simulator_10000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      tspace:dbconfig: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-18T08:26:06.947" lifespan="4ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART)
+rest-tutorial 2.1.2 master/9d4095d (2019-09-18 13:56:00 IRDT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2019-09-18T08:26:07.755">
+  <info>
+               OS: Linux (5.2.9-200.fc30.x86_64)
+             Java: 1.8.0_222 (Oracle Corporation) AES-secure
+     process name: 4516@localhost
+        user name: Smile
+             host: localhost/127.0.0.1
+              cwd: /run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial
+       free space: 244.7 GiB
+          version: 2.1.2 (6f9379a)
+         instance: 76855141-6193-4ae9-8604-c5f1009983c3
+           uptime: 02:00:02.868 (0.400000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 88/50/38
+         encoding: UTF-8
+         timezone: GMT-03:00 (GMT-03:00) -03:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1568805967 2019-09-18T11:26:07.756Z
+     thread count: 56
+     peak threads: 58
+     user threads: 53
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-76855141-6193-4ae9-8604-c5f1009983c3,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[org.eclipse.jetty.util.RolloverFileOutputStream,5,main]
+            Thread[Thread-5,5,main]
+            Thread[qtp1509725432-22,5,main]
+            Thread[qtp1509725432-23,5,main]
+            Thread[qtp1509725432-24,5,main]
+            Thread[qtp1509725432-25,5,main]
+            Thread[qtp1509725432-26,5,main]
+            Thread[qtp1509725432-27,5,main]
+            Thread[qtp1509725432-28-acceptor-0@3e332654-ServerConnector@112a3463{SSL,[ssl, http/1.1]}{0.0.0.0:8443},3,main]
+            Thread[qtp1509725432-29,5,main]
+            Thread[qtp1509725432-30,5,main]
+            Thread[qtp1509725432-31-acceptor-0@371a55cb-ServerConnector@74869e79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080},3,main]
+            Thread[Scheduler-574659525,5,main]
+            Thread[HttpClient@972128838-33,5,main]
+            Thread[HttpClient@972128838-34,5,main]
+            Thread[HttpClient@972128838-35,5,main]
+            Thread[HttpClient@972128838-36,5,main]
+            Thread[HttpClient@972128838-37,5,main]
+            Thread[HttpClient@972128838-38,5,main]
+            Thread[HttpClient@972128838-39,5,main]
+            Thread[HttpClient@972128838-40,5,main]
+            Thread[HttpClient@221501803-41,5,main]
+            Thread[HttpClient@221501803-42,5,main]
+            Thread[HttpClient@221501803-43,5,main]
+            Thread[HttpClient@221501803-44,5,main]
+            Thread[HttpClient@221501803-45,5,main]
+            Thread[HttpClient@221501803-46,5,main]
+            Thread[HttpClient@221501803-47,5,main]
+            Thread[HttpClient@221501803-48,5,main]
+            Thread[Scanner-0,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[qtp1509725432-53,5,main]
+            Thread[qtp1509725432-54,5,main]
+            Thread[pool-2-thread-1,5,main]
+            Thread[pool-3-thread-1,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-AdminTaskTimer,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#0,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#1,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#2,5,main]
+            Thread[__DEFAULT__,5,main]
+            Thread[org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.data,5,main]
+            Thread[Statistics Thread-__DEFAULT__-1,5,main]
+            Thread[org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.data,5,main]
+            Thread[org%002ejpos%002eee%002e%0053ys%0043onfig.data,5,main]
+            Thread[qtp1509725432-69,5,main]
+            Thread[qtp1509725432-70,5,main]
+            Thread[qtp1509725432-189,5,main]
+            Thread[simulator_10000-ThreadPool.PooledThread-0,5,simulator_10000-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      simulator_10000: org.jpos.q2.iso.QServer
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      server.simulator_10000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      tspace:dbconfig: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+  </info>
+</log>
+<log realm="stdout" at="2019-09-18T09:01:57.178" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:00.149" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:03.152" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:06.152" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:09.147" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:12.152" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:16.375" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:18.153" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:21.170" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:24.156" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:27.161" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:30.152" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:33.152" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:36.156" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:39.428" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:42.154" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:45.181" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:48.269" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:51.261" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:54.181" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:02:57.156" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:03:00.306" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:03:03.304" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:04:01.463" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stderr" at="2019-09-18T09:04:01.666" lifespan="501ms">
+    Sep 18, 2019 9:04:01 AM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+    WARNING: WSP0075: Policy assertion "{http://schemas.microsoft.com/ws/06/2004/policy/http}BasicAuthentication" was evaluated as "UNKNOWN".
+    Sep 18, 2019 9:04:01 AM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+    WARNING: WSP0019: Suboptimal policy alternative selected on the client side with fitness "UNKNOWN".
+</log>
+<log realm="stdout" at="2019-09-18T09:04:35.887" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:04:38.892" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:04:41.890" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:04:44.894" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:04:47.885" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:04:50.884" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:04:53.339" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stderr" at="2019-09-18T09:04:53.529" lifespan="500ms">
+    Sep 18, 2019 9:04:53 AM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+    WARNING: WSP0075: Policy assertion "{http://schemas.microsoft.com/ws/06/2004/policy/http}BasicAuthentication" was evaluated as "UNKNOWN".
+    Sep 18, 2019 9:04:53 AM [com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector]  selectAlternatives
+    WARNING: WSP0019: Suboptimal policy alternative selected on the client side with fitness "UNKNOWN".
+</log>
+<log realm="stdout" at="2019-09-18T09:04:55.957" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:04:57.547" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:05:00.565" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:05:04.080" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:08:41.811" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:08:44.812" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:08:47.810" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:08:50.847" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:08:53.811" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:08:56.815" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:08:59.813" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:02.924" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:05.816" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:11.917" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:12.819" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:14.930" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:26.857" lifespan="500ms">
+    Adding start time in request headers
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:28.396" lifespan="514ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:28.901" lifespan="501ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:38.940" lifespan="500ms">
+    Adding start time in request headers
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:39.928" lifespan="500ms">
+    Adding start time in request headers
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:09:41.829" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:10:14.940" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="stdout" at="2019-09-18T09:10:15.648" lifespan="500ms">
+    Adding start time in request headers
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2019-09-18T09:26:07.764">
+  <info>
+               OS: Linux (5.2.9-200.fc30.x86_64)
+             Java: 1.8.0_222 (Oracle Corporation) AES-secure
+     process name: 4516@localhost
+        user name: Smile
+             host: localhost/127.0.0.1
+              cwd: /run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial
+       free space: 244.7 GiB
+          version: 2.1.2 (6f9379a)
+         instance: 76855141-6193-4ae9-8604-c5f1009983c3
+           uptime: 03:00:02.875 (0.580000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 88/66/22
+         encoding: UTF-8
+         timezone: GMT-03:00 (GMT-03:00) -03:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1568809567 2019-09-18T12:26:07.764Z
+     thread count: 56
+     peak threads: 59
+     user threads: 53
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-76855141-6193-4ae9-8604-c5f1009983c3,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[org.eclipse.jetty.util.RolloverFileOutputStream,5,main]
+            Thread[Thread-5,5,main]
+            Thread[qtp1509725432-22,5,main]
+            Thread[qtp1509725432-23,5,main]
+            Thread[qtp1509725432-24,5,main]
+            Thread[qtp1509725432-26,5,main]
+            Thread[qtp1509725432-27,5,main]
+            Thread[qtp1509725432-28-acceptor-0@3e332654-ServerConnector@112a3463{SSL,[ssl, http/1.1]}{0.0.0.0:8443},3,main]
+            Thread[qtp1509725432-29,5,main]
+            Thread[qtp1509725432-30,5,main]
+            Thread[qtp1509725432-31-acceptor-0@371a55cb-ServerConnector@74869e79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080},3,main]
+            Thread[Scheduler-574659525,5,main]
+            Thread[HttpClient@972128838-33,5,main]
+            Thread[HttpClient@972128838-34,5,main]
+            Thread[HttpClient@972128838-35,5,main]
+            Thread[HttpClient@972128838-36,5,main]
+            Thread[HttpClient@972128838-37,5,main]
+            Thread[HttpClient@972128838-38,5,main]
+            Thread[HttpClient@972128838-39,5,main]
+            Thread[HttpClient@972128838-40,5,main]
+            Thread[HttpClient@221501803-41,5,main]
+            Thread[HttpClient@221501803-42,5,main]
+            Thread[HttpClient@221501803-43,5,main]
+            Thread[HttpClient@221501803-44,5,main]
+            Thread[HttpClient@221501803-45,5,main]
+            Thread[HttpClient@221501803-46,5,main]
+            Thread[HttpClient@221501803-47,5,main]
+            Thread[HttpClient@221501803-48,5,main]
+            Thread[Scanner-0,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[pool-2-thread-1,5,main]
+            Thread[pool-3-thread-1,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-AdminTaskTimer,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#0,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#1,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#2,5,main]
+            Thread[__DEFAULT__,5,main]
+            Thread[org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.data,5,main]
+            Thread[Statistics Thread-__DEFAULT__-1,5,main]
+            Thread[org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.data,5,main]
+            Thread[org%002ejpos%002eee%002e%0053ys%0043onfig.data,5,main]
+            Thread[qtp1509725432-69,5,main]
+            Thread[qtp1509725432-228,5,main]
+            Thread[qtp1509725432-233,5,main]
+            Thread[qtp1509725432-235,5,main]
+            Thread[qtp1509725432-239,5,main]
+            Thread[qtp1509725432-258,5,main]
+            Thread[simulator_10000-ThreadPool.PooledThread-0,5,simulator_10000-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      simulator_10000: org.jpos.q2.iso.QServer
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      server.simulator_10000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      tspace:dbconfig: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-18T09:26:08.407" lifespan="8ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART)
+rest-tutorial 2.1.2 master/9d4095d (2019-09-18 13:56:00 IRDT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2019-09-18T10:04:22.440">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.AbstractConnector" at="2019-09-18T10:04:22.461">
+  <info>
+    Stopped ServerConnector@74869e79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.AbstractConnector" at="2019-09-18T10:04:22.462">
+  <info>
+    Stopped ServerConnector@112a3463{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.session" at="2019-09-18T10:04:22.464">
+  <info>
+    Stopped scavenging
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.handler.ContextHandler" at="2019-09-18T10:04:22.470">
+  <info>
+    Stopped o.e.j.w.WebAppContext@56c7dc4d{/,null,UNAVAILABLE}{/root}
+  </info>
+</log>
+<log realm="slf4j::org.eclipse.jetty.server.handler.ContextHandler" at="2019-09-18T10:04:22.477">
+  <info>
+    Stopped o.e.j.w.WebAppContext@39007fca{/api,null,UNAVAILABLE}{/@warname@}
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-18T10:04:23.183">
+  <trace>
+    undeploying:/run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2019-09-18T10:04:23.185">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2019-09-18T10:04:23.187">
+  <info>
+               OS: Linux (5.2.9-200.fc30.x86_64)
+             Java: 1.8.0_222 (Oracle Corporation) AES-secure
+     process name: 4516@localhost
+        user name: Smile
+             host: localhost/127.0.0.1
+              cwd: /run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial
+       free space: 244.7 GiB
+          version: 2.1.2 (6f9379a)
+         instance: 76855141-6193-4ae9-8604-c5f1009983c3
+           uptime: 03:38:18.298 (0.480000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 88/62/26
+         encoding: UTF-8
+         timezone: GMT-03:00 (GMT-03:00) -03:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1568811863 2019-09-18T13:04:23.187Z
+     thread count: 27
+     peak threads: 60
+     user threads: 21
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[SIGINT handler,9,system]
+            Thread[SIGINT handler,9,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-76855141-6193-4ae9-8604-c5f1009983c3,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[org.eclipse.jetty.util.RolloverFileOutputStream,5,main]
+            Thread[Thread-5,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[pool-2-thread-1,5,main]
+            Thread[pool-3-thread-1,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-AdminTaskTimer,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#0,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#1,5,main]
+            Thread[C3P0PooledConnectionPoolManager[identityToken->z8kflta5is6f4b1jvsypz|cdf96cc]-HelperThread-#2,5,main]
+            Thread[__DEFAULT__,5,main]
+            Thread[org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.data,5,main]
+            Thread[Statistics Thread-__DEFAULT__-1,5,main]
+            Thread[org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.data,5,main]
+            Thread[org%002ejpos%002eee%002e%0053ys%0043onfig.data,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[simulator_10000-ThreadPool.PooledThread-0,5,simulator_10000-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      simulator_10000: org.jpos.q2.iso.QServer
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      server.simulator_10000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      tspace:dbconfig: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-18T10:04:23.191" lifespan="4ms">
+  <info>
+    undeployed:/run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-18T10:04:23.194">
+  <trace>
+    undeploying:/run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/90_jetty.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2019-09-18T10:04:23.195">
+  <info>
+    undeployed:/run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/90_jetty.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-18T10:04:23.203">
+  <trace>
+    undeploying:/run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/05_serversimulator.xml
+  </trace>
+</log>
+<log realm="simulator_10000.pool" at="2019-09-18T10:04:23.206">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2019-09-18T10:04:23.206">
+  <info>
+    undeployed:/run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/05_serversimulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-18T10:04:23.208">
+  <trace>
+    undeploying:/run/media/Smile/Disk/Programming/Projects/rest-tutorial/build/install/rest-tutorial/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>

@@ -1,0 +1,65 @@
+Manifest-Version: 1.0
+Implementation-Title: rest-tutorial
+Implementation-Version: 2.1.2
+Class-Path: lib/jposee-server-simulator-2.2.5-SNAPSHOT.jar lib/jposee-
+ db-postgresql-2.2.5-SNAPSHOT.jar lib/jposee-sysconfig-2.2.5-SNAPSHOT.
+ jar lib/jposee-eeuser-2.2.5-SNAPSHOT.jar lib/jposee-eerest-2.2.5-SNAP
+ SHOT.jar lib/jposee-jetty-2.2.5-SNAPSHOT.jar lib/jposee-txn-2.2.5-SNA
+ PSHOT.jar lib/jposee-dbsupport-2.2.5-SNAPSHOT.jar lib/jposee-core-2.2
+ .5-SNAPSHOT.jar lib/jpos-2.1.2.jar lib/jersey-container-servlet-2.22.
+ 1.jar lib/swagger-jersey2-jaxrs-1.5.3.jar lib/jersey-media-multipart-
+ 2.1.jar lib/jersey-container-servlet-core-2.22.1.jar lib/jersey-serve
+ r-2.22.1.jar lib/jersey-client-2.22.1.jar lib/jersey-media-json-jacks
+ on-2.22.1.jar lib/jersey-media-moxy-2.22.1.jar lib/jersey-media-jaxb-
+ 2.22.1.jar lib/jersey-common-2.22.1.jar lib/jersey-entity-filtering-2
+ .22.1.jar lib/javax.ws.rs-api-2.0.1.jar lib/postgresql-42.1.1.jar lib
+ /swagger-jaxrs-1.5.3.jar lib/swagger-core-1.5.3.jar lib/commons-lang3
+ -3.4.jar lib/jdom2-2.0.6.jar lib/jdbm-1.0.jar lib/je-7.0.6.jar lib/co
+ mmons-cli-1.3.1.jar lib/jline-3.9.0.jar lib/bsh-2.0b6.jar lib/javatup
+ les-1.2.jar lib/org.osgi.core-6.0.0.jar lib/bcpg-jdk15on-1.57.jar lib
+ /bcprov-jdk15on-1.57.jar lib/sshd-core-1.7.0.jar lib/hibernate-ehcach
+ e-5.2.17.Final.jar lib/ehcache-2.10.3.jar lib/swagger-models-1.5.3.ja
+ r lib/slf4j-api-1.7.25.jar lib/hk2-locator-2.4.0-b31.jar lib/hibernat
+ e-envers-5.2.17.Final.jar lib/hibernate-c3p0-5.2.17.Final.jar lib/hib
+ ernate-core-5.2.17.Final.jar lib/reflections-0.9.9.jar lib/javassist-
+ 3.22.0-GA.jar lib/HdrHistogram-2.1.10.jar lib/json-schema-validator-2
+ .2.6.jar lib/jetty-deploy-9.4.5.v20170502.jar lib/javax-websocket-ser
+ ver-impl-9.4.5.v20170502.jar lib/jetty-annotations-9.4.5.v20170502.ja
+ r lib/jetty-plus-9.4.5.v20170502.jar lib/jetty-webapp-9.4.5.v20170502
+ .jar lib/websocket-server-9.4.5.v20170502.jar lib/jetty-servlet-9.4.5
+ .v20170502.jar lib/jetty-security-9.4.5.v20170502.jar lib/jetty-rewri
+ te-9.4.5.v20170502.jar lib/jetty-server-9.4.5.v20170502.jar lib/jetty
+ -xml-9.4.5.v20170502.jar lib/jetty-jmx-9.4.5.v20170502.jar lib/jetty-
+ continuation-9.4.5.v20170502.jar lib/javax-websocket-client-impl-9.4.
+ 5.v20170502.jar lib/javax.websocket-api-1.1.jar lib/jackson-jaxrs-jso
+ n-provider-2.5.4.jar lib/jackson-jaxrs-base-2.5.4.jar lib/jackson-dat
+ aformat-xml-2.4.5.jar lib/json-schema-core-1.2.5.jar lib/jackson-core
+ utils-1.8.jar lib/jackson-module-jaxb-annotations-2.5.4.jar lib/jacks
+ on-databind-2.9.5.jar lib/jackson-annotations-2.9.0.jar lib/org.eclip
+ se.persistence.moxy-2.6.0.jar lib/hk2-api-2.4.0-b31.jar lib/javax.inj
+ ect-2.4.0-b31.jar lib/javax.annotation-api-1.2.jar lib/validation-api
+ -1.1.0.Final.jar lib/jackson-datatype-joda-2.4.5.jar lib/joda-time-2.
+ 10.jar lib/geronimo-jta_1.1_spec-1.1.1.jar lib/jersey-guava-2.22.1.ja
+ r lib/osgi-resource-locator-1.0.1.jar lib/jackson-dataformat-yaml-2.4
+ .5.jar lib/uri-template-0.9.jar lib/guava-18.0.jar lib/mimepull-1.8.j
+ ar lib/msg-simple-1.1.jar lib/btf-1.2.jar lib/jsr305-3.0.0.jar lib/li
+ bphonenumber-6.2.jar lib/mailapi-1.4.3.jar lib/jopt-simple-4.6.jar li
+ b/websocket-servlet-9.4.5.v20170502.jar lib/javax.servlet-api-3.1.0.j
+ ar lib/websocket-client-9.4.5.v20170502.jar lib/jetty-client-9.4.5.v2
+ 0170502.jar lib/jetty-http-9.4.5.v20170502.jar lib/websocket-common-9
+ .4.5.v20170502.jar lib/jetty-io-9.4.5.v20170502.jar lib/jetty-jndi-9.
+ 4.5.v20170502.jar lib/jetty-util-9.4.5.v20170502.jar lib/asm-commons-
+ 5.1.jar lib/asm-tree-5.1.jar lib/asm-5.1.jar lib/jackson-core-2.9.5.j
+ ar lib/org.eclipse.persistence.core-2.6.0.jar lib/javax.json-1.0.4.ja
+ r lib/hk2-utils-2.4.0-b31.jar lib/aopalliance-repackaged-2.4.0-b31.ja
+ r lib/hibernate-commons-annotations-5.0.1.Final.jar lib/jboss-logging
+ -3.3.1.Final.jar lib/hibernate-jpa-2.1-api-1.0.0.Final.jar lib/antlr-
+ 2.7.7.jar lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar lib/jand
+ ex-2.0.3.Final.jar lib/classmate-1.3.0.jar lib/dom4j-1.6.1.jar lib/c3
+ p0-0.9.5.2.jar lib/snakeyaml-1.12.jar lib/stax2-api-3.1.4.jar lib/ann
+ otations-2.0.1.jar lib/rhino-1.7R4.jar lib/activation-1.1.jar lib/web
+ socket-api-9.4.5.v20170502.jar lib/org.eclipse.persistence.asm-2.6.0.
+ jar lib/javax.inject-1.jar lib/mchange-commons-java-0.2.11.jar lib/sw
+ agger-annotations-1.5.3.jar
+Main-Class: org.jpos.q2.Q2
+

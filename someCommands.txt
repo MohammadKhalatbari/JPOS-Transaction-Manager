@@ -1,0 +1,7 @@
+ل((Result) obj).getDesc().getValue().toString()
+
+((Result) obj).success
+((Result) obj).desc.value
+
+
+ wsimport -keep -verbose http://192.168.1.52:8090/Charge?wsdl

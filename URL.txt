@@ -1,0 +1,7 @@
+Update
+ip:port/api/update/{id}/{amount}
+localhost:8080/api/update/30/35
+
+Add:
+ip:port/api/add/{userId}/{vendorId}/{amount}
+localhost:8080/api/add/80a28677-596a-4c1c-9bd2-d2b8e6d6577e/cdbcfffd-9631-4840-8e4c-20588d191905/4100
